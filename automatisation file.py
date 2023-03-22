@@ -35,7 +35,7 @@ elif figure == "Cube":
         diagonal_с = math.sqrt((side * math.sqrt(2)) ** 2 + side ** 2)
         print(f"{figure} {para} is {diagonal_с}")
     else:
-        print("Mistake available")
+        print("Mistake")
 
 elif figure == "Parallelepiped":
     if para == "Volume":
@@ -87,7 +87,7 @@ elif figure == "Parallelepiped":
         side_diagonal_2 = math.sqrt(math.sqrt(side_1 ** 2 + side_2 ** 2) + height ** 2)
         print(f"{figure} {para} is {side_diagonal_2}")
     else:
-        print("You had mistaken")
+        print("Mistake")
 
 elif figure == "Cylinder":
     if para == "Volume":
@@ -110,7 +110,7 @@ elif figure == "Cylinder":
         base_area = math.pi * radius ** 2
         print(f"{figure} {para} is {base_area}")
     else:
-        print("Mistake is your lifestyle")
+        print("Mistake")
         
 elif figure == "Pyramid":
     if para == "Volume":
@@ -152,7 +152,7 @@ elif figure == "Pyramid":
         side_area_side_n_base_angle = height / (1/2 * side * math.sqrt(2))
         print(f"{figure} {para} is {side_area_side_n_base_angle}")
     else:
-        print("Daun")
+        print("Mistake")
 
 elif figure == "Cone":
     if para == "Volume":
@@ -184,7 +184,7 @@ elif figure == "Cone":
         side_area_side_n_base_angle = height / radius
         print(f"{figure} {para} is {side_area_side_n_base_angle}")
     else:
-        print("Sike nibba you thought")
+        print("Mistake")
 
 elif figure == "Octahedron":
     if para == "Volume":
@@ -204,4 +204,4 @@ elif figure == "Octahedron":
         rad_out = (math.sqrt(6) * side) / 6
         print(f"{figure} {para} is {rad_out}")
     else:
-        print("Not sheesh")
+        print("Mistake")
